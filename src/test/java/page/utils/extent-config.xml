@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extentreports>
+    <configuration>
+        <!-- report theme -->
+        <!-- standart, dark -->
+        <theme>standart</theme>
+
+
+        <encoding>UTF-8</encoding>
+
+
+        <protocol>https</protocol>
+
+
+        <documentTitle>Result</documentTitle>
+
+
+        <reportName>Web Automation Playwright</reportName>
+
+
+        <testViewChartLocation>bottom</testViewChartLocation>
+
+        <!-- CUSTOM JAVASCRIPT -->
+        <scripts>
+            <![CDATA[
+            $(document).ready(function() {});
+            ]]>
+        </scripts>
+
+        <!-- CUSTOM STYLES -->
+        <styles>
+            <![CDATA[]]>
+        </styles>
+    </configuration>
+</extentreports>
